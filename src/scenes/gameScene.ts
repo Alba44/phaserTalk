@@ -6,7 +6,7 @@ class GameScene extends Phaser.Scene {
     private player: Phaser.Physics.Arcade.Sprite;
     private platforms: Phaser.Physics.Arcade.StaticGroup;
 	private cursors: Phaser.Types.Input.Keyboard.CursorKeys;
-    private stars: Phaser.Physics.Arcade.Group;
+    private stars/*: Phaser.Physics.Arcade.Group*/;
 
     constructor() {
         super({
