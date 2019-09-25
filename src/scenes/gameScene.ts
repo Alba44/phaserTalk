@@ -1,7 +1,7 @@
 class GameScene extends Phaser.Scene {
     player: Phaser.Physics.Arcade.Sprite;
-    platforms;
-    cursors: any;
+    platforms: Phaser.Physics.Arcade.StaticGroup;
+    cursors: Phaser.Types.Input.Keyboard.CursorKeys;
     
 
     constructor() {
