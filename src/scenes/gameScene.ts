@@ -1,5 +1,5 @@
 class GameScene extends Phaser.Scene {
-    platforms: Phaser.Physics.Arcade.StaticGroup;
+    private platforms: Phaser.Physics.Arcade.StaticGroup;
 
     constructor() {
         super({
