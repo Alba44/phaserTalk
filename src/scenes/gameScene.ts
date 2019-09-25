@@ -1,6 +1,6 @@
 class GameScene extends Phaser.Scene {
     player: Phaser.Physics.Arcade.Sprite;
-    platforms;
+    platforms: Phaser.Physics.Arcade.StaticGroup;
 
     constructor() {
         super({
