@@ -3,10 +3,10 @@ function collectStar(player, star) {
 }
 
 class GameScene extends Phaser.Scene {
-    player: Phaser.Physics.Arcade.Sprite;
-    platforms;
-    cursors: any;
-    stars;
+    private player: Phaser.Physics.Arcade.Sprite;
+    private platforms: Phaser.Physics.Arcade.StaticGroup;
+	private cursors: Phaser.Types.Input.Keyboard.CursorKeys;
+    private stars: Phaser.Physics.Arcade.Group;
 
     constructor() {
         super({
